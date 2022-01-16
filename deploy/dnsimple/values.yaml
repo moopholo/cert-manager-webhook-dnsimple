@@ -18,12 +18,12 @@ dnsimple:
 clusterIssuer:
   email: name@example.com
   staging:
-    create: false
+    enabled: false
   production:
-    create: false
+    enabled: false
 image:
   repository: neoskop/cert-manager-webhook-dnsimple
-  tag: 0.1.0
+  tag: 0.1.1
   pullPolicy: IfNotPresent
   # pullSecret: "gcr"
 nameOverride: ""
