@@ -23,7 +23,7 @@ jobs:
           fetch-depth: 0
 
       - uses: docker/setup-qemu-action@v1
-      - uses: docker/setup-buildx-action@v1
+      - uses: docker/setup-buildx-action@v2
 
       - id: docker-metadata
         uses: docker/metadata-action@v3
